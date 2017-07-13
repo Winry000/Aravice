@@ -3,9 +3,11 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ararice',
+    podModulePrefix: 'ararice',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    contentSecurityPolicy: {'connect-src':"'self' wss://*.firebaseio.com"},
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,6 +22,14 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+     firebase: {
+        apiKey: "AIzaSyDGL5AkcZEPC2lIfeoPCzIFvt0pONaEptc",
+        authDomain: "avarice-55f64.firebaseapp.com",
+        databaseURL: "https://avarice-55f64.firebaseio.com",
+        projectId: "avarice-55f64",
+        storageBucket: "avarice-55f64.appspot.com",
+        messagingSenderId: "925062626442"
     }
   };
 

@@ -1,4 +1,4 @@
-{{tiny/ara-logtitle  title="Sign Up" switch="Log In" text="Already have an Aravice account " link="feature.login"}}
+{{tiny/ara-logtitle  title="Sign Up" switch="Log In" text="Already have an Ararice account " link="feature.login"}}
 <div class="login-block">
 	<div class="col-md-5 col-sm-12 center-block">
 	    <div class="login bottom">
@@ -6,10 +6,13 @@
 	           	<div class="form-group">
 	                <input type="email" name="email" class="form-control" required="required" placeholder="Email..">
 	            </div>
-	             <div class="form-group">
+	            <div class="form-group">
 	                <input type="password" name="name" class="form-control" required="required" placeholder="Password..">
 	            </div>
-	            <input type="checkbox" checked="checked"> Remember me                        
+	            <div class="form-group">
+	                <input type="password" name="repeatpassword" class="form-control" required="required" placeholder="Repeat Password..">
+	            </div>
+	            <input type="checkbox" checked="checked"> You agree to our {{#link-to "feature.home"}}Terms of Use, Privacy Policy {{/link-to}}to receive Email & Updates                     
 	            <div class="form-group">
 	                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
 	            </div>

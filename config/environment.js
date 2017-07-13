@@ -3,7 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ararice',
-    podModulePrefix: 'ararice',
+    podModulePrefix: '',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

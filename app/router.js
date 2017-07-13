@@ -12,7 +12,18 @@ Router.map(function() {
     this.route('home');
     this.route('login');
     this.route('cart');
-    this.route('admin');
+
+    this.route('admin', function() {
+      this.route('addressManagement');
+      this.route('paymentManagement');
+      this.route('myBalance');
+      this.route('myPoints');
+      this.route('wishLists');
+      this.route('invitePeople');
+      this.route('myMessage');
+      this.route('myorder');
+    });
+
     this.route('signup');
   });
   this.route('upload');

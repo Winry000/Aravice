@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:feature/signup', 'Unit | Route | feature/signup', {
+moduleFor('route:feature/admin/my-balance', 'Unit | Route | feature/admin/my balance', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

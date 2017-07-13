@@ -168,7 +168,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 10px 0 60px 0;
+  padding: 10px 0 20px 0;
 }
 
 #header .navbar-inverse .container{
@@ -1226,6 +1226,10 @@ Portfolio with right sidebar
 }
 
 .sidebar-item{
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  margin-left: 20px;
   margin-bottom: 48px;
 }
 
@@ -1300,7 +1304,7 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media:last-child{
-  border-bottom: 0px solid #ececec;  
+  // border-bottom: 0px solid #ececec;  
   padding-bottom: 0; 
 }
 
@@ -2755,3 +2759,5 @@ span.stButton_gradient,
   float: right;
   margin-top: 40px;
 }
+.sidebar-profile {
+  margin: 10px 20px 10px 50px;

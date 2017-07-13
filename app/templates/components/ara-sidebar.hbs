@@ -1,0 +1,15 @@
+<div class="sidebar-item  recent" >
+	<h3>{{title}}</h3>
+	<div class="sidebar-profile">
+		<a href="#" {{action "change"}}><img  src={{source}} alt=""></a>
+	</div>
+    {{tiny/ara-sidebar-menu name="My Orders" link="feature.admin.myorder"}}
+    {{tiny/ara-sidebar-menu name="Address Management" link="feature.admin.addressManagement" }}
+    {{tiny/ara-sidebar-menu name="Payment Management" link="feature.admin.paymentManagement"}}
+    {{tiny/ara-sidebar-menu name="My Balance" link="feature.admin.myBalance"}}
+    {{tiny/ara-sidebar-menu name="My Points" link="feature.admin.myPoints" }}
+    {{tiny/ara-sidebar-menu name="Wish List" link="feature.admin.wishLists"}}
+    {{tiny/ara-sidebar-menu name="Invite People" link="feature.admin.invitePeople"}}
+    {{tiny/ara-sidebar-menu name="My Message" link="feature.admin.myMessage"}}
+</div>
+{{yield}}

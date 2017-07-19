@@ -1,6 +1,7 @@
 /* eslint-env node */
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
+
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     'ember-bootstrap': {
@@ -8,6 +9,7 @@ module.exports = function(defaults) {
       'importBootstrapFont': true,
       'importBootstrapCSS': true
     }
+    app.import('vendor/i18t.js')
   });
 
   // Use `app.import` to add additional libraries to the generated

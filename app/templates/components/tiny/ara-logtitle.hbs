@@ -8,7 +8,8 @@
 		<h1 class="login-title">{{title}}</h1>	
 		<h2 class="switch-title">{{text}}{{#link-to link}}{{switch}}{{/link-to}}</h2>
 	</div>
-	<div class="col-md-4">	
+	<div class="col-md-4">
+	<a href="#" {{action "change"}}>{{source}}</a>
 	{{#link-to "index" class="cross-mark" }}
 	    <img src="/images/cross.png" alt="cross">
 	{{/link-to}}

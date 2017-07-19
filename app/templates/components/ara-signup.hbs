@@ -1,18 +1,18 @@
-{{tiny/ara-logtitle  title="Sign Up" switch="Log In" text="Already have an Ararice account " link="feature.login"}}
+{{tiny/ara-logtitle  title=(t 'signup') switch=(t 'LogIn') text=(t 'signupquestion') link="feature.login"}}
 <div class="login-block">
 	<div class="col-md-5 col-sm-12 center-block">
 	    <div class="login bottom">
 	        <form id="main-login-form" name="login-form" method="post" action="sendemail.php">
 	           	<div class="form-group">
-	                <input type="email" name="email" class="form-control" required="required" placeholder="Email..">
+	                <input type="email" name="email" class="form-control" required="required" placeholder={{t 'emailholder'}}>
 	            </div>
 	            <div class="form-group">
-	                <input type="password" name="name" class="form-control" required="required" placeholder="Password..">
+	                <input type="password" name="name" class="form-control" required="required" placeholder={{t 'passwordholder'}}>
 	            </div>
 	            <div class="form-group">
-	                <input type="password" name="repeatpassword" class="form-control" required="required" placeholder="Repeat Password..">
+	                <input type="password" name="repeatpassword" class="form-control" required="required" placeholder={{t 'repasswordholder'}}>
 	            </div>
-	            <input type="checkbox" checked="checked"> You agree to our {{#link-to "feature.home"}}Terms of Use, Privacy Policy {{/link-to}}to receive Email & Updates                     
+	            <input type="checkbox" checked="checked"> {{t "valid1"}}{{#link-to "feature.home"}}{{t "valid2"}} {{/link-to}}{{t "valid3"}}                  
 	            <div class="form-group">
 	                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
 	            </div>

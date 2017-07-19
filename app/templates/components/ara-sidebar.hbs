@@ -3,13 +3,13 @@
 	<div class="sidebar-profile">
 		<a href="#" {{action "change"}}><img  src={{source}} alt=""></a>
 	</div>
-    {{tiny/ara-sidebar-menu name="My Orders" link="feature.admin.myorder"}}
-    {{tiny/ara-sidebar-menu name="Address Management" link="feature.admin.addressManagement" }}
-    {{tiny/ara-sidebar-menu name="Payment Management" link="feature.admin.paymentManagement"}}
-    {{tiny/ara-sidebar-menu name="My Balance" link="feature.admin.myBalance"}}
-    {{tiny/ara-sidebar-menu name="My Points" link="feature.admin.myPoints" }}
-    {{tiny/ara-sidebar-menu name="Wish List" link="feature.admin.wishLists"}}
-    {{tiny/ara-sidebar-menu name="Invite People" link="feature.admin.invitePeople"}}
-    {{tiny/ara-sidebar-menu name="My Message" link="feature.admin.myMessage"}}
+    {{tiny/ara-sidebar-menu name=(t "myorder") link="feature.admin.myorder" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "addressmanagement") link="feature.admin.addressManagement" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "paymentmanagement") link="feature.admin.paymentManagement" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "mybalance") link="feature.admin.myBalance" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "mypoints") link="feature.admin.myPoints" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "wishLists") link="feature.admin.wishLists" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "invitepeople") link="feature.admin.invitePeople" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "myprofile") link="feature.admin.myMessage" image="/images/items/heart.png"}}
 </div>
 {{yield}}

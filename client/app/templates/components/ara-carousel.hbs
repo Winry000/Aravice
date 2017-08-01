@@ -1,0 +1,42 @@
+<section id="shortcodes">
+    <div class="container">
+		{{#carousel-container transitionInterval=400}}
+		  {{#carousel-body}}
+		    {{#carousel-item}}
+		      	<img src="http://placehold.it/1140x487/green" alt="">
+		            <div class="carousel-caption">
+		                <h3>First slide label</h3>
+		                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		            </div>
+		    {{/carousel-item}}
+		    {{#carousel-item}}
+		      	<img src="http://placehold.it/1140x487/blue" alt="">
+		            <div class="carousel-caption">
+		                <h3>Second slide label</h3>
+		                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		            </div>
+		    {{/carousel-item}}
+		    {{#carousel-item}}
+		      	<img src="http://placehold.it/1140x487/red" alt="">
+		            <div class="carousel-caption">
+		                <h3>Third slide label</h3>
+		                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		            </div>
+		    {{/carousel-item}}
+		  {{/carousel-body}}
+
+		  {{#carousel-arrow direction="left"}}
+		  	<a class="left carousel-control hidden-xs" href="#carousel-example-generic" data-slide="prev">
+		                        <span class="glyphicon glyphicon-chevron-left"></span>
+		                    </a>
+		  {{/carousel-arrow}}
+		  {{#carousel-arrow direction="right"}}
+		  	<a class="right carousel-control hidden-xs" href="#carousel-example-generic" data-slide="next">
+		                        <span class="glyphicon glyphicon-chevron-right"></span>
+		                    </a>
+		  {{/carousel-arrow}}
+		{{/carousel-container}}
+		{{yield}}
+	</div>
+</section>
+

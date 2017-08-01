@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-P2pIeywU.tmp/ember-factory-for-polyfill/index.js

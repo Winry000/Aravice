@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/funnel-input_base_path-e4yVKBiT.tmp/helpers/ember-i18n/test-helpers.js

@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/app/initializers/i18n.js

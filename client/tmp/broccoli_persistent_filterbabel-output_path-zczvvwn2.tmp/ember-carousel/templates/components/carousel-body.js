@@ -1,0 +1,3 @@
+define("ember-carousel/templates/components/carousel-body", ["exports"], function (exports) {
+  exports.default = Ember.HTMLBars.template({ "id": "wlbxm5n0", "block": "{\"statements\":[[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ember-carousel/templates/components/carousel-body.hbs" } });
+});

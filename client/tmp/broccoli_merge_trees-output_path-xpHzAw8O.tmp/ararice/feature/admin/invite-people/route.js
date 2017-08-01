@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/app/feature/admin/invite-people/route.js

@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"kX6XuxfU","block":"{\"statements\":[[\"text\",\"jahah\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"ararice/feature/products/template.hbs"}});

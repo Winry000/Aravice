@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/broccoli_persistent_filterbabel__babel_ember_cli_qunit-output_path-7j4ZlH3K.tmp/qunit.js

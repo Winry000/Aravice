@@ -1,0 +1,63 @@
+{{ara-navbar}}
+<hr>
+ <section id="projects" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <div class="sidebar portfolio-sidebar">
+                    	<div class="sidebar-item  recent" >
+            							<h3>Categories</h3>
+            						    {{tiny/ara-sidebar-menu name="Branded" link="feature.admin.myorder"}}
+            						    {{tiny/ara-sidebar-menu name="Design" link="feature.admin.addressManagement"}}
+            						    {{tiny/ara-sidebar-menu name="Logos" link="feature.admin.paymentManagement"}}
+            						    {{tiny/ara-sidebar-menu name="Mobile" link="feature.admin.myBalance"}}
+            						</div>
+                        <div class="sidebar-item  recent">
+                            <h3>Recent Projects</h3>
+                            {{tiny/ara-sidebar-menu name="productname1" text="xxxx" image="/images/items/image.png"}}
+                            {{tiny/ara-sidebar-menu name="productname2" text="xxxx" image="/images/items/image.png"}}
+                            {{tiny/ara-sidebar-menu name="productname3" text="xxxx" image="/images/items/image.png"}}
+                            {{tiny/ara-sidebar-menu name="productname4" text="xxxx" image="/images/items/image.png"}}
+                        </div>
+                        <div class="sidebar-item popular">
+                            <h3>Popular Projects</h3>
+                            <ul class="gallery">
+                            	{{tiny/ara-sidebar-menu text="xxxx" image="/images/items/image.png"}}
+                            	{{tiny/ara-sidebar-menu text="xxxx" image="/images/items/image.png"}}
+                            	{{tiny/ara-sidebar-menu text="xxxx" image="/images/items/image.png"}}
+                            	{{tiny/ara-sidebar-menu text="xxxx" image="/images/items/image.png"}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-9 col-sm-8">
+                    <div class="row">
+                         {{#each model as |item|}}
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                {{ara-item-card img=item.images title=item.title id=item.id}}
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+                <div class="portfolio-pagination">
+                    <ul class="pagination">
+                      <li class="active"><a href="#">left</a></li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li><a href="#">6</a></li>
+                      <li><a href="#">7</a></li>
+                      <li><a href="#">8</a></li>
+                      <li><a href="#">9</a></li>
+                      <li><a href="#">right</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#projects-->
+{{outlet}}
+{{ara-footer}}

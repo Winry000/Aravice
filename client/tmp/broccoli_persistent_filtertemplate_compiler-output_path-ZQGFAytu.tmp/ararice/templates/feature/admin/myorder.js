@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"f8OwXMsA","block":"{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"ararice/templates/feature/admin/myorder.hbs"}});

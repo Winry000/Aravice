@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"V5VCs7vo","block":"{\"statements\":[[\"append\",[\"unknown\",[\"ara-signup\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"ararice/feature/signup/template.hbs"}});

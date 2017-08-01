@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/node_modules/ember-getowner-polyfill/vendor/install-getowner-polyfill.js

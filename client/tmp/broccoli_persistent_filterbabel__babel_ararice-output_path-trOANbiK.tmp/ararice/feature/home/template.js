@@ -1,0 +1,3 @@
+define("ararice/feature/home/template", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "RAKIdrXe", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"ara-navbar\"]],false],[\"text\",\"\\n\"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-carousel\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-popularitem\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-footer\"]],false]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ararice/feature/home/template.hbs" } });
+});

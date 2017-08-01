@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/funnel-input_base_path-uPL11XwS.tmp/components/carousel-item.js

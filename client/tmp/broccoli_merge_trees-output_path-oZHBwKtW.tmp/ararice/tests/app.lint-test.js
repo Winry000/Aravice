@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/broccoli_merge_trees-input_base_path-YjyaQXc8.tmp/1/ararice/tests/app.lint-test.js

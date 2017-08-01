@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/broccoli_merge_trees-input_base_path-Dh5wDLrE.tmp/0/ember-qunit.js

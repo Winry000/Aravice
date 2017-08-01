@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/funnel-input_base_path-Ozu8tH3G.tmp/utils/i18n/compile-template.js

@@ -1,0 +1,3 @@
+define("ararice/templates/index", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "Qd5Rbw/L", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"ara-navbar\"]],false],[\"text\",\"\\n\"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-carousel\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-popularitem\"]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"ara-footer\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ararice/templates/index.hbs" } });
+});

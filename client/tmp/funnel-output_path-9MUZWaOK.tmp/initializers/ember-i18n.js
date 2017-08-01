@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/tmp/funnel-input_base_path-Ozu8tH3G.tmp/initializers/ember-i18n.js

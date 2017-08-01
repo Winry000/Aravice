@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/vendor/i18n.js

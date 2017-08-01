@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/app/components/ara-item-card.js

@@ -1,0 +1,15 @@
+<div class="sidebar-item  recent" >
+	<h3>{{title}}</h3>
+	<div class="sidebar-profile">
+		<a href="#" {{action "change"}}><img  src={{source}} alt=""></a>
+	</div>
+    {{tiny/ara-sidebar-menu name=(t "myorder") link="feature.admin.myorder" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "addressmanagement") link="feature.admin.addressManagement" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "paymentmanagement") link="feature.admin.paymentManagement" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "mybalance") link="feature.admin.myBalance" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "mypoints") link="feature.admin.myPoints" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "wishLists") link="feature.admin.wishLists" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "invitepeople") link="feature.admin.invitePeople" image="/images/items/heart.png"}}
+    {{tiny/ara-sidebar-menu name=(t "myprofile") link="feature.admin.myMessage" image="/images/items/heart.png"}}
+</div>
+{{yield}}

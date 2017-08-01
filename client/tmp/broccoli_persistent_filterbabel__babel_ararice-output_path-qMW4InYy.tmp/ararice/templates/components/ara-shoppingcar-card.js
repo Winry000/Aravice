@@ -1,0 +1,3 @@
+define("ararice/templates/components/ara-shoppingcar-card", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "6quu9ahf", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"sidebar-item  recent\"],[\"flush-element\"],[\"text\",\"\\n\\t\"],[\"open-element\",\"h3\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"title\"]],false],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"],[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ararice/templates/components/ara-shoppingcar-card.hbs" } });
+});

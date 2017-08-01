@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/node_modules/ember-wormhole/app/components/ember-wormhole.js

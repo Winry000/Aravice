@@ -1,0 +1,19 @@
+<div class="row">
+	<div class="col-md-3">
+	{{#link-to "feature.home" class="logo-mark" }}
+	    <h1><img src="/images/logo-1.jpeg" alt="logo"></h1>
+	{{/link-to}}
+	</div>
+	<div class="col-md-5">
+		<h1 class="login-title">{{title}}</h1>	
+		<h2 class="switch-title">{{text}}{{#link-to link}}{{switch}}{{/link-to}}</h2>
+	</div>
+	<div class="col-md-4">
+	<a href="#" {{action "change"}}>{{source}}</a>
+	{{#link-to "feature.home" class="cross-mark" }}
+	    <img src="/images/cross.png" alt="cross">
+	{{/link-to}}
+	</div>
+</div> 
+
+{{yield}}

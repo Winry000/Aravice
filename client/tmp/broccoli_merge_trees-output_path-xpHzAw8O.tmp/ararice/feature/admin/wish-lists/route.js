@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/app/feature/admin/wish-lists/route.js

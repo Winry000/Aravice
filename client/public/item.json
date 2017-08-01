@@ -1,0 +1,16 @@
+[
+	{
+		"idproduct":1,
+		"title":"A  fantistic rings",
+		"stock":20,
+		"description":"Made in China",
+		"images":"/Users/winryxie/Desktop/WechatIMG3.jpeg "
+	},
+	{
+		"idproduct":2,
+		"title":"A good stuff",
+		"stock":10,
+		"description":"Made in China",
+		"images":"/Users/winryxie/Desktop/WechatIMG4.jpeg"
+	}
+]

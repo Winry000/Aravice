@@ -2761,3 +2761,64 @@ span.stButton_gradient,
 }
 .sidebar-profile {
   margin: 10px 20px 10px 50px;
+}
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#C9B771 0%, #A79C57 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.btn-circle{
+    width: 30px;
+    height: 30px;
+    padding: 6px, 0;
+    border-radius: 50%;
+    border-width: 2px;
+}
+.btn-default{
+  background-color: white;
+}
+.number-input {
+  display: inline-block;
+  position: Relative;
+  border: 2px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: "Always Show Up/Down Arrows";
+}
+.inline-spinnet {
+  display: -webkit-box;
+}
+.input-number {
+  width: 50px;
+  margin-left: 15px;
+}
+

@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/broccoli_merge_trees-input_base_path-VrC3FRSP.tmp/1/components/bs-popover.js

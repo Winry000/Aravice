@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-ZxYHf9Pw.tmp/-private/system/record-arrays/adapter-populated-record-array.js

@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/broccoli_merge_trees-input_base_path-W9IF36OA.tmp/10/components/welcome-page.js

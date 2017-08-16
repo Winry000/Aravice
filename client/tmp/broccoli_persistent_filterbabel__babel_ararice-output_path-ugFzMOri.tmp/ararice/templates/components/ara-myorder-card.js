@@ -1,0 +1,3 @@
+define("ararice/templates/components/ara-myorder-card", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "/Ag7wFre", "block": "{\"statements\":[[\"open-element\",\"h3\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"productname\"]],false],[\"close-element\"],[\"text\",\"\\n\"],[\"yield\",\"default\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[\"default\"],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ararice/templates/components/ara-myorder-card.hbs" } });
+});

@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/app/routes/ara-navbar.js

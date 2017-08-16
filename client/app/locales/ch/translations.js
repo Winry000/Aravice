@@ -1,5 +1,6 @@
 export default {
   'home': '主页',
+  'logout': '登出',
   'login': '登陆',
   'admin': '个人信息',
   'collections': '宝贝分类',

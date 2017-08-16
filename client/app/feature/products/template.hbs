@@ -1,4 +1,13 @@
 {{ara-navbar}}
 <hr>
-{{ara-item-detail img=model.images title=model.title}}
+{{log 'color:' model}}
+{{ara-item-detail 
+	img=model.images 
+	title=model.title 
+	price=model.price 
+	description=model.description
+	stock=model.stock
+	color=model.color
+	addCart=(action "addtoCart")
+	}}
 {{outlet}}

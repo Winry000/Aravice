@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-S7B8fpc7.tmp/lib/system/inflections.js

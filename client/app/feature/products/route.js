@@ -6,6 +6,7 @@ export default Ember.Route.extend({
       return this.store.peekRecord('post', params.itemId);
   	},
 
+  
   // model: function(params) {
   // 	var ws  = this.modelFor('feature');  
   //   var route = this;

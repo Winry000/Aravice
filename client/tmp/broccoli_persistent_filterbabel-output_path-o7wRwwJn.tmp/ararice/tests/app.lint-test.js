@@ -23,6 +23,11 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
     assert.ok(true, 'app.js should pass ESLint\n\n');
   });
 
+  QUnit.test('authenticators/oauth2.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'authenticators/oauth2.js should pass ESLint\n\n');
+  });
+
   QUnit.test('components/ara-calculator-card.js', function (assert) {
     assert.expect(1);
     assert.ok(true, 'components/ara-calculator-card.js should pass ESLint\n\n');
@@ -95,7 +100,7 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
 
   QUnit.test('components/ara-signup.js', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/ara-signup.js should pass ESLint\n\n');
+    assert.ok(false, 'components/ara-signup.js should pass ESLint\n\n5:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n6:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n7:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n8:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n9:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n10:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n11:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n12:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n14:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n15:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)');
   });
 
   QUnit.test('components/tiny/ara-logtitle.js', function (assert) {
@@ -106,6 +111,16 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
   QUnit.test('components/tiny/ara-sidebar-menu.js', function (assert) {
     assert.expect(1);
     assert.ok(true, 'components/tiny/ara-sidebar-menu.js should pass ESLint\n\n');
+  });
+
+  QUnit.test('controllers/ara-login.js', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'controllers/ara-login.js should pass ESLint\n\n2:8 - \'DS\' is defined but never used. (no-unused-vars)\n5:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n16:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n17:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)');
+  });
+
+  QUnit.test('controllers/ara-navbar.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'controllers/ara-navbar.js should pass ESLint\n\n');
   });
 
   QUnit.test('feature/admin/address-management/route.js', function (assert) {
@@ -173,6 +188,11 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
     assert.ok(false, 'feature/home/route.js should pass ESLint\n\n6:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n7:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n8:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)');
   });
 
+  QUnit.test('feature/login/controller.js', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'feature/login/controller.js should pass ESLint\n\n2:8 - \'DS\' is defined but never used. (no-unused-vars)');
+  });
+
   QUnit.test('feature/login/route.js', function (assert) {
     assert.expect(1);
     assert.ok(false, 'feature/login/route.js should pass ESLint\n\n6:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n7:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)\n8:2 - Mixed spaces and tabs. (no-mixed-spaces-and-tabs)');
@@ -223,6 +243,11 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
     assert.ok(true, 'models/products.js should pass ESLint\n\n');
   });
 
+  QUnit.test('models/user.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'models/user.js should pass ESLint\n\n');
+  });
+
   QUnit.test('resolver.js', function (assert) {
     assert.expect(1);
     assert.ok(true, 'resolver.js should pass ESLint\n\n');
@@ -236,6 +261,11 @@ define('ararice/tests/app.lint-test', ['exports'], function (exports) {
   QUnit.test('routes/application.js', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/application.js should pass ESLint\n\n');
+  });
+
+  QUnit.test('routes/ara-navbar.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/ara-navbar.js should pass ESLint\n\n');
   });
 
   QUnit.test('serializers/post.js', function (assert) {

@@ -2,7 +2,7 @@
 <div class="login-block">
 	<div class="col-md-5 col-sm-12 center-block">
 	    <div class="login bottom">
-	        <form id="main-login-form" name="login-form" method="post" action="sendemail.php">
+	        <form id="main-login-form" name="login-form" {{action 'authenticate' on='submit'}}>
 	           	<div class="form-group">
 	                <input type="email" name="email" class="form-control" required="required" placeholder={{t 'emailholder'}}>
 	            </div>
@@ -17,6 +17,12 @@
 	    </div>
 	    <div class="vr">&nbsp;</div>
 	</div>
+	{{#if errorMessage}}
+	<p>
+		<strong>Login Failed</strong>
+		<code{{errorMessage}}></code>
+	</p>
+	{{/if}}
 
 	<div class="col-md-5 col-sm-12 center-block">
     <div class="contact-form bottom">

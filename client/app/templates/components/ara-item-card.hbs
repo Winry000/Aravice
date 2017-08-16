@@ -1,6 +1,11 @@
 <div class="portfolio-wrapper">
     <div class="portfolio-single">
         <div class="portfolio-thumb">
+            {{#if onsale}}
+            <div class="box">
+                <div class="ribbon"><span>On Sale</span></div>
+            </div>
+            {{/if}}
             <img src="{{img}}"class="img-responsive" alt="">
         </div>
         <div class="portfolio-view">

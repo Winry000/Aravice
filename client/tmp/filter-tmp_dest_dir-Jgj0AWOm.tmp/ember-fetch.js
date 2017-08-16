@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/filter-tmp_cache_dir-kycGCIWX.tmp/0

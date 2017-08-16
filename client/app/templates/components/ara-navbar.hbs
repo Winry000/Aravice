@@ -58,7 +58,7 @@
                         </li>                         
                         <li>
                         {{#if session.isAuthenticated}} 
-                            {{#link-to}}Logout{{/link-to}}
+                            {{#link-to 'feature.home' action=logout }}{{t "logout"}}{{/link-to}}
                         {{else}}
                             {{#link-to 'feature.login'}}{{t "login"}}{{/link-to}}
                         {{/if}}

@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-5KjgHOjk.tmp/authorizers/oauth2-bearer.js

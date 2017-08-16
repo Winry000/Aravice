@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/app/components/ara-calculator-card.js

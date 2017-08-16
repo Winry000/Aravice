@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-9BoB2Lty.tmp/modules/ember-i18n/config/fa.js

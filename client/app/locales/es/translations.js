@@ -1,5 +1,6 @@
 export default {
   'home': 'home',
+  'logout': 'logout',
   'login': 'login',
   'admin': 'admin',
   'collections': 'collections',

@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-O9h0jZFu.tmp/index.js

@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/broccoli_merge_trees-input_base_path-k7mZQBZa.tmp/0/instance-initializers/ember-data.js

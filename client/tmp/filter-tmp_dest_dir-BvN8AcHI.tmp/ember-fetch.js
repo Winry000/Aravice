@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/filter-tmp_cache_dir-RocATMRl.tmp/0

@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/broccoli_persistent_filterbabel__babel_ember_cli_qunit-output_path-OLUSjmtG.tmp/ember-test-helpers.js

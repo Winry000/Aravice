@@ -8,6 +8,10 @@ module.exports = function(defaults) {
       'bootstrapVersion': 3,
       'importBootstrapFont': true,
       'importBootstrapCSS': true
+    },
+    'ember-math-helpers': {
+      only: ['add', 'sub','mult'],
+      except: ['random', 'tan']
     }
   });
 

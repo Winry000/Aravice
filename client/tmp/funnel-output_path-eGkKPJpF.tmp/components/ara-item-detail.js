@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-eRp7U8oK.tmp/components/ara-item-detail.js

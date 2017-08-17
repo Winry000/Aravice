@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-EMV38LKx.tmp/components/fa-list.js

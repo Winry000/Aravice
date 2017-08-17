@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/broccoli_merge_trees-input_base_path-GJmGtETS.tmp/9/instance-initializers/ember-simple-auth.js

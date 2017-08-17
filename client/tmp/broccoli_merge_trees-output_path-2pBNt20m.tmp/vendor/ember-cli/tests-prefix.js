@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/config_replace-output_path-cclJzUQy.tmp/tests-prefix.js

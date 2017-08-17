@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-TdlmCkQ8.tmp/torii-adapters/firebase.js

@@ -1,1 +1,0 @@
-/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-zxHDawud.tmp/components/base/bs-accordion/item/body.js

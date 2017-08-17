@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/creator-output_path-0TLVmPoq.tmp/version.js

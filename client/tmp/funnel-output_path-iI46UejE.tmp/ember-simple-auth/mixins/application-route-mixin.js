@@ -1,0 +1,1 @@
+/Users/winryxie/Desktop/ember/ararice/client/tmp/funnel-input_base_path-gwzQaiJH.tmp/mixins/application-route-mixin.js
